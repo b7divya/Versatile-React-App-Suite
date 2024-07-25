@@ -1,0 +1,57 @@
+.counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family:fantasy;
+    font-weight: 400;
+}
+
+.counter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    width: 50vw;
+    background-color: rgb(255, 176, 200);
+    border: 1px solid black;
+    border-radius: 10px;
+    gap: 1rem;
+    color:rgb(158, 0, 0)
+}
+
+.negative {
+    padding: 20px;
+    background-color: rgb(104, 104, 243);
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    font-weight: 700;
+    border-radius: 50%;
+}
+
+.negative:hover {
+    background-color: rgb(2, 2, 150);
+}
+
+
+
+.positive {
+    padding: 20px;
+    background-color: rgb(247, 2, 2);
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.positive:hover {
+    background-color: rgb(112, 0, 0);
+}
+
+.Input {
+    padding: 1rem;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+}

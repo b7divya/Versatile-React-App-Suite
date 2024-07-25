@@ -1,0 +1,63 @@
+.signup {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.signup-container {
+    height: 60vh;
+    width: 30vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(230, 163, 163);
+    border: 1px solid rgb(88, 27, 27);
+    margin-top: 4rem;
+    border-radius: 10px;
+}
+
+.signup-container-heading {
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.signup-container-form .btnsign {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.signUpForm {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.inputBoxsign {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 6px;
+    border-radius: 10px;
+    border:none;
+    cursor: pointer;
+}
+
+.btnsign {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+    border: none;
+}

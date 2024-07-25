@@ -1,0 +1,36 @@
+.scooby {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.scooby-container {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+    width: 60vw;
+    background-color: aquamarine;
+    border: 1ps solid black;
+    border-radius: 10px;
+    margin-top: 2rem;
+}
+
+.scooby-image {
+    width: 5rem;
+    height: 7rem;
+}
+
+.scooby-container-image {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vhvh;
+    width: 10vw;
+    background-color: aquamarine;
+    border: 1ps solid black;
+    border-radius: 10px;
+    margin-top: 5rem;
+}
